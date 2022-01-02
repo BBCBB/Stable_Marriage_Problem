@@ -24,7 +24,7 @@ class Matching:
             
 q=Matching()
 counter=0
-while len(memb_m)!=0:
+while len(memb_m)!=0:                                                 #if there is a solution for the problem, so long as there are single persons left, the agorithm will go on
     counter+=1
     for i,r in enumerate(memb_m):
         for j,k in enumerate(memb_f):
