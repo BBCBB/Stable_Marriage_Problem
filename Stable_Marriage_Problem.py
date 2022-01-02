@@ -2,6 +2,7 @@ pref_m = [[4, 2, 3, 1], [2, 1, 3, 4],       # preferences of each male
           [1, 2, 3, 4], [1, 2, 2, 4]]       # pref_m[0][0]=4 means that the firs person (female)
 pref_f = [[1, 2, 3, 4], [1, 2, 3, 4],       # from the pref_f list is the last priority of the first male
           [1, 2, 3, 4], [1, 2, 3, 4]]       # preferences of each female
+# The lower the number, the higher the priority of that equivalent member from the opposite gender
 n=len(pref_m)                               # number of couples
 class individuals:                          # we form a class for each individual
     def __init__(self,array,gender,label):
